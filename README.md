@@ -2,6 +2,10 @@
 
 This project provisions a **scalable, highly available Nginx web application** on **AWS** using **Terraform** and monitors the web application with CloudWatch.
 
+## Architecture Diagram
+
+![Architecture Diagram](screenshots/architecture-diagram.png.jpg)
+
 ## Features
 - VPC with 3 public and 3 private subnets
 - Application Load Balancer distributing traffic to private EC2s
